@@ -1,8 +1,18 @@
 import App from "next/app";
+import Navbar from "./../components/Navbar";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../css/tailwind.css";
 
+library.add(faBars);
+
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <div className="bg-gray-100 h-screen flex flex-col text-gray-800 antialiased leading-tight">
+      <Navbar />
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
 // Only uncomment this method if you have blocking data requirements for
