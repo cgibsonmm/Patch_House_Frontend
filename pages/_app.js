@@ -1,5 +1,5 @@
 import App from "next/app";
-import Navbar from "./../components/Navbar";
+import Navbar from "./../components/layout/Navbar";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../css/tailwind.css";

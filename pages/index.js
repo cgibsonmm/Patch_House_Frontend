@@ -1,5 +1,5 @@
-import PatchCard from "../components/PatchCard";
-import MainHero from "../components/MainHero";
+import PatchCard from "../components/cards/PatchCard";
+import MainHero from "../components/cards/MainHero";
 
 const styles = {
   bg: {

@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   patch: {
-    background: `url(${require("./../images/patch.jpg")}) no-repeat center center`,
+    background: `url(${require("./../../images/patch.jpg")}) no-repeat center center`,
     backgroundSize: "cover",
   },
 };
